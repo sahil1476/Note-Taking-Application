@@ -5,11 +5,8 @@ This is a simple note-taking application built using React. The app allows users
 ## Deploy link 
 
 [![Check the Result](https://img.icons8.com/?size=100&id=jhVH1oNJKfCf&format=png&color=000000)](https://notes-aplicationn.netlify.app/)
-[Click-Here]()
-
 
 #### Deploy status badge: [![Netlify Status](https://api.netlify.com/api/v1/badges/6cef1667-aca5-42b4-9b7e-74229591ce0c/deploy-status)](https://app.netlify.com/sites/notes-aplicationn/deploys)
-
 
 ## Features
 
