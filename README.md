@@ -1,8 +1,11 @@
-# Note-Taking-App
+# Note-Taking-App 📚
 This is a simple note-taking application built using React. The app allows users to create, view, edit, delete, and search notes. The notes are stored in the browser's local storage.
 
 
-## Deploy link : [Click-Here](https://notes-aplicationn.netlify.app/)
+## Deploy link 
+
+[![Check the Result](https://img.icons8.com/?size=100&id=jhVH1oNJKfCf&format=png&color=000000)](https://notes-aplicationn.netlify.app/)
+[Click-Here]()
 
 
 #### Deploy status badge: [![Netlify Status](https://api.netlify.com/api/v1/badges/6cef1667-aca5-42b4-9b7e-74229591ce0c/deploy-status)](https://app.netlify.com/sites/notes-aplicationn/deploys)
@@ -17,7 +20,15 @@ This is a simple note-taking application built using React. The app allows users
 - **Search Notes**: Users can filter notes by title or content using a search bar.
 - **Timestamps**: Each note displays its creation or last modification time.
 
-## Technologies Used
+## Usage
+
+- **Add a Note**: Use the form at the top to add a new note.
+- **Edit a Note**: Click the "Edit Note" button on an existing note to modify it.
+- **Delete a Note**: Click the delete button on an existing note to remove it.
+- **Search Notes**: Use the search bar to filter notes by title or content.
+- **Pagination**: Navigate through pages using the pagination buttons at the bottom.
+
+## Technologies Used 💻
 
 - React.js
 - CSS for styling
@@ -91,6 +102,14 @@ This component displays an individual note with options to edit or delete it.
 `SearchNote.js`
 This component contains the search bar for filtering notes.
 
+## Code Structure
+
+- `App.js`: The main component managing state and rendering other components.
+- `NoteArea.js`: The component for adding and editing notes.
+- `Note.js`: The component representing a single note.
+- `SearchNote.js`: The component for searching notes.
+- `Footer.js` and `Header.js`: The components for the footer and header respectively.
+
 ## Local Storage
 The notes are stored as an array of objects in the browser's local storage. Each note object contains the following properties:
 
@@ -99,6 +118,13 @@ The notes are stored as an array of objects in the browser's local storage. Each
 - content: Content of the note
 - timeStamp: Timestamp of the note's creation or last modification
 
+## Acknowledgements
+
+- **React.js Documentation**: [https://reactjs.org/docs/getting-started.html](https://reactjs.org/docs/getting-started.html)
+- **MDN Web Docs on Local Storage**: [https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage](https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage)
+- **Material-UI Icons**: [https://mui.com/components/icons/](https://mui.com/components/icons/)
+- **JavaScript Info**: [https://javascript.info/](https://javascript.info/)
+- **CSS Tricks**: [https://css-tricks.com/](https://css-tricks.com/)
 
 
 ##### Feel free to adjust the content as per your requirements and add any additional information you find relevant.
