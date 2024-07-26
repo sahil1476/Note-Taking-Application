@@ -1,0 +1,274 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  font-family: "Montserrat", sans-serif;
+}
+body {
+  background: #eee;
+  padding: 0;
+  height: 100dvh;
+  background-color: #9782a2;
+  background-color: #49243E;
+  background-image: url("https://www.transparenttextures.com/patterns/diagmonds-light.png");
+  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+}
+
+header {
+  width: 100dvw;
+  background-color: #49243E;
+  margin: auto ;
+  padding: 16px 32px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+
+}
+header:hover{
+  background-color: #021526;
+  box-shadow: rgba(234, 224, 224, 0.4279) 0px 1px 2px, rgba(106, 97, 97, 0.405) 0px 2px 4px, rgba(167, 156, 156, 0.455) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+
+header h1 {
+  color: #fff;
+  font-family: "McLaren", cursive;
+  font-weight: 200;
+  text-shadow: 1px 1px #c88de9;
+}
+header span{
+  color: orange;
+}
+
+footer {
+  position: fixed;
+  text-align: center;
+  bottom: 0;
+  width: 100%;
+  height: 2.5rem;
+  padding-top: 10px;
+  background-color: #A0153E;
+  margin-top: 30px;
+  height: fit-content;
+}
+footer:hover{
+  background-color: #021526;
+  box-shadow: rgba(234, 224, 224, 0.4279) 0px 1px 2px, rgba(106, 97, 97, 0.405) 0px 2px 4px, rgba(167, 156, 156, 0.455) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+
+footer p {
+  color: #ccc;
+  margin-top: 2px;
+}
+.social-media-icons {
+  display: flex;
+  justify-content: center;
+  gap: 60px;
+  margin-top: 6px;
+  margin-bottom: 10px;
+  
+}
+
+.icon svg {
+  fill: white;
+  width: 34px;
+  height: 34px;
+  transition: fill 0.3s ease;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); /* Oval shadow */
+  transition: box-shadow 0.3s ease-in-out; 
+}
+
+.formClass{
+  position: relative;
+  width: 480px;
+  margin: 30px auto 20px auto;
+  background: #eeeaea;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+  overflow: hidden;
+  margin-top: 50px;
+}
+form.formClass input,
+form.formClass textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 8px;
+  outline: none;
+  background: #fff;
+  resize: vertical;
+  /* resize for only vertical */
+}
+form.formClass button{
+  position: absolute;
+  right: 35px;
+  bottom: 10px;
+  background: #f5ba13;
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  cursor: pointer;
+  outline: none;
+  font-weight: 550;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+
+}
+form.formClass button:hover{
+  background: #857646;
+  color: floralwhite;
+  box-shadow: 0 2px 4px rgba(174, 52, 52, 0.564);
+}
+.searchArea {
+  position: relative;
+  width: 480px;
+  margin: 30px auto 20px auto;
+  background: #917777ab;
+  padding: 15px;
+  border-radius: 40px;
+  box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+.searchArea input{
+  width: 100%;
+  height: 40px;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 10px;
+  outline: none;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+.search-button{
+  cursor: pointer;
+  position:absolute;
+  right: 25px;
+  top: 22px;
+  border-radius: 50%;
+  background-color: #720455b7;
+  color: white;
+  height: 35px;
+  width: 35px;
+  border: none;
+  box-shadow: rgba(0, 0, 0, 0.4) 0px 2px 4px, rgba(0, 0, 0, 0.3) 0px 7px 13px -3px, rgba(0, 0, 0, 0.2) 0px -3px 0px inset;
+
+}
+.search-button:hover{
+  background-color: #62003f;
+}
+.clear-search {
+  background-color: #e21b0d; 
+  color: white;
+  border: none; 
+  padding: 10px 20px;
+  min-width: fit-content; 
+  align-items: center;
+  margin-left: 45%;
+  margin-right: 45%;
+  cursor: pointer; 
+  border-radius: 8px; 
+  box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+  transition: background-color 0.3s;
+}
+.clear-search:hover{
+  
+  background-color: #c47d32; 
+  box-shadow: rgba(0, 0, 0, 0.09) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+  transition: background-color 0.3s;
+}
+.note {
+  background: #fff;
+  border-radius: 7px;
+  /* box-shadow: 0 2px 5px #ccc; */
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+  padding: 10px;
+  width: 22%;
+  margin: 16px;
+  float: left;
+  flex-direction: column;
+  margin-bottom: auto;
+}
+.note:hover {
+  transform: scale(1.05); /* Slightly scale up on hover */
+  box-shadow: rgba(0, 0, 0, 0.236) 0px 20px 30px, rgba(234, 11, 11, 0.23) 0px 12px 12px; /* Increase shadow on hover */
+  transition: transform 0.3s, box-shadow 0.3s;
+  background-color: #eeeaea;
+}
+
+.note h1 {
+  font-size: 1.1em;
+  margin-bottom: 6px;
+  word-wrap: break-word;
+}
+.note h2 {
+  font-size: 0.7em;
+  margin-bottom: 5px;
+  word-wrap: break-word;
+  font-weight: 100;
+}
+.note p {
+  font-size: 1.1em;
+  margin-bottom: 10px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+
+.note button {
+  position: relative;
+  float: right;
+  margin-right: 10px;
+  color: #f5ba13;
+  border: none;
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+  outline: none;
+  border-radius: 6px;
+}
+.note button:hover{
+  background-color: #857646;
+  color: floralwhite;
+  box-shadow: 0 2px 4px rgba(214, 54, 54, 0.564);
+  border-radius: 6px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+  position:relative;
+  align-items: center;
+  height: fit-content;
+  width: 100%;
+}
+
+.pagination button {
+  margin: 0 5px;
+  padding: 15px 15px;
+  border: none;
+  font-size: larger;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-bottom: 100px;
+  box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+
+}
+.pagination button:hover {
+  background-color: #ff00f7;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+
+}
+
+.pagination .active {
+  font-weight: bold;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
