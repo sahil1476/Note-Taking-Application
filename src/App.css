@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
 * {
   padding: 0;
   margin: 0;
@@ -18,7 +21,7 @@ body {
 
 }
 
-header {
+/* header {
   width: 100dvw;
   background-color: #49243E;
   margin: auto ;
@@ -39,7 +42,38 @@ header h1 {
 }
 header span{
   color: orange;
+} */
+
+header {
+  width: 100dvw;
+  background: linear-gradient(135deg, #49243E, #6A2C70);
+  margin: auto;
+  padding: 20px 32px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  text-align: center;
+  transition: all 0.3s ease-in-out;
+  border-radius: 10px;
 }
+
+header:hover {
+  background: linear-gradient(135deg, #021526, #0C356A);
+  box-shadow: rgba(255, 255, 255, 0.2) 0px 2px 4px, rgba(255, 255, 255, 0.15) 0px 4px 8px, rgba(255, 255, 255, 0.1) 0px 8px 16px;
+}
+
+header h1 {
+  color: #fff;
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.3);
+  font-size: 2.5rem;
+  letter-spacing: 2px;
+}
+
+header span {
+  color: #FFA500;
+  text-shadow: 1px 1px 3px rgba(255, 165, 0, 0.6);
+}
+
 
 footer {
   position: fixed;
