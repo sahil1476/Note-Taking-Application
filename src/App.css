@@ -11,9 +11,11 @@ body {
   padding: 0;
   height: 100dvh;
   background-color: #9782a2;
-  background-color: #49243E;
-  background-image: url("https://www.transparenttextures.com/patterns/diagmonds-light.png");
-  /* This is mostly intended for prototyping; please download the pattern and re-host for production environments. Thank you! */
+/*   background-color: #49243E;
+  background-image: url("https://www.transparenttextures.com/patterns/diagmonds-light.png"); */
+  background-color: #22002e;
+  background-image: url("https://www.transparenttextures.com/patterns/wood-pattern.png");
+
 }
 
 header {
